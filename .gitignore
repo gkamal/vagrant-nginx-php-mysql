@@ -3,3 +3,4 @@ vagrant
 *.lock
 sites/*
 cookbooks
+nginx-config
