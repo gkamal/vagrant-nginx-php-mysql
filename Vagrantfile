@@ -11,5 +11,6 @@ Vagrant::Config.run do |config|
     chef.add_recipe "php"
     chef.add_recipe "mysql"
     chef.add_recipe "git"
+    chef.add_recipe "chef-phpunit"
   end
 end
