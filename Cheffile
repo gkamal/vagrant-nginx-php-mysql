@@ -13,4 +13,6 @@ cookbook 'nginx',
   git: 'git://github.com/opscode-cookbooks/nginx.git'
 cookbook 'php-fpm',
   git: 'git://github.com/yevgenko/cookbook-php-fpm.git'
+cookbook 'chef-phpunit',
+  git: 'git://github.com/msonnabaum/chef-phpunit.git'
 cookbook 'build-essential'
