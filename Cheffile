@@ -11,8 +11,12 @@ cookbook 'mysql',
   git: 'git://github.com/opscode-cookbooks/mysql.git'
 cookbook 'nginx',
   git: 'git://github.com/opscode-cookbooks/nginx.git'
+cookbook 'php',
+  git: 'git://github.com/opscode-cookbooks/php.git'
 cookbook 'php-fpm',
   git: 'git://github.com/yevgenko/cookbook-php-fpm.git'
 cookbook 'chef-phpunit',
   git: 'git://github.com/msonnabaum/chef-phpunit.git'
+cookbook 'rvm',
+    :git => 'git://github.com/fnichol/chef-rvm.git'
 cookbook 'build-essential'
